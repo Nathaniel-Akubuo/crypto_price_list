@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: kGrey,
         appBarTheme: const AppBarTheme(backgroundColor: kGrey, elevation: 0),
-        primarySwatch: Colors.blue,
       ),
       navigatorKey: StackedService.navigatorKey,
       onGenerateRoute: StackedRouter().onGenerateRoute,
